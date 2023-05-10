@@ -1,0 +1,15 @@
+<h1>C'est ici pour lacher ton doss' !</h1>
+<p>Fais toi plaisir, racontes-nous tes plus gros potins</p>
+<br /> <br />
+
+<%= form_tag url_for(action: 'create'), method: "post" do %>
+    <%= label_tag 'title' %>
+    <%= text_field_tag 'title' %>
+      <br /> <br />
+
+    <%= label_tag 'content' %>
+    <%= text_area_tag 'content' %>
+      <br /> <br />
+
+  <%= submit_tag "Créer un potin" %>
+<% end %>

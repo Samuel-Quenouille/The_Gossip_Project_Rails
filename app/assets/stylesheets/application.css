@@ -48,3 +48,7 @@ form{
 label{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
+
+.container-fluid{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
