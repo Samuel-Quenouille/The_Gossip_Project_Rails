@@ -1,5 +1,4 @@
 class GossipformController < ApplicationController
-
     def create
         @gossip = Gossip.new('user_id' => User.all.sample.id,
                             'title' => params[:title],

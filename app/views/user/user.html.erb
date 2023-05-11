@@ -1,0 +1,21 @@
+<h1>Sign up</h1>
+
+<%= form_tag url_for(action: 'create'), method: "post", authenticity_token: true do %>
+    <div class="mb-3">
+        <%= form.label :name %>
+        <%= form.text_field :name, class: "form-control", placeholder: "name" %>
+    </div>
+    <div class="mb-3">
+        <%= form.label :email %>
+        <%= form.text_field :email, class: "form-control", placeholder: "exemple@gmail.com" %>
+    </div>
+    <div class="mb-3">
+        <%= form.label :password %>
+        <%= form.text_field :password, class: "form-control" placeholder: "password"%>
+    </div>
+
+    <div class="mb-3">
+        <%= form.submit "Sign up", class: "btn btn-primary" %>
+    </div>
+<% end %>
+
