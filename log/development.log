@@ -19090,3 +19090,287 @@ Processing by GossipformController#index as HTML
 Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.3ms | Allocations: 3423)
 
 
+Started GET "/" for 127.0.0.1 at 2023-05-11 23:38:29 +0200
+  [1m[36mActiveRecord::SchemaMigration Pluck (2.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/gossipform" for 127.0.0.1 at 2023-05-11 23:38:30 +0200
+Processing by GossipformController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering gossipform/index.html.erb within layouts/application
+  [1m[36mGossip Load (4.4ms)[0m  [1m[34mSELECT "gossips".* FROM "gossips"[0m
+  ↳ app/views/gossipform/index.html.erb:8
+  Rendered gossipform/index.html.erb within layouts/application (Duration: 24.7ms | Allocations: 17227)
+  Rendered layout layouts/application.html.erb (Duration: 103.4ms | Allocations: 53294)
+Completed 200 OK in 134ms (Views: 100.0ms | ActiveRecord: 9.3ms | Allocations: 61769)
+
+
+Started GET "/application.css" for 127.0.0.1 at 2023-05-11 23:38:30 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/application.css"):
+  
+Started GET "/gossipform" for 127.0.0.1 at 2023-05-11 23:39:43 +0200
+Processing by GossipformController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering gossipform/index.html.erb within layouts/application
+  [1m[36mGossip Load (8.1ms)[0m  [1m[34mSELECT "gossips".* FROM "gossips"[0m
+  ↳ app/views/gossipform/index.html.erb:8
+  Rendered gossipform/index.html.erb within layouts/application (Duration: 14.5ms | Allocations: 967)
+  Rendered layout layouts/application.html.erb (Duration: 30.1ms | Allocations: 3928)
+Completed 200 OK in 39ms (Views: 27.1ms | ActiveRecord: 8.1ms | Allocations: 4973)
+
+
+Started GET "/application.css" for 127.0.0.1 at 2023-05-11 23:39:43 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/application.css"):
+  
+Started GET "/gossipform" for 127.0.0.1 at 2023-05-11 23:40:13 +0200
+Processing by GossipformController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering gossipform/index.html.erb within layouts/application
+  [1m[36mGossip Load (0.4ms)[0m  [1m[34mSELECT "gossips".* FROM "gossips"[0m
+  ↳ app/views/gossipform/index.html.erb:8
+  Rendered gossipform/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 967)
+  Rendered layout layouts/application.html.erb (Duration: 17.6ms | Allocations: 3920)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.4ms | Allocations: 4966)
+
+
+Started GET "/application.css" for 127.0.0.1 at 2023-05-11 23:40:13 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/application.css"):
+  
+Started GET "/sessions" for 127.0.0.1 at 2023-05-11 23:41:15 +0200
+Processing by SessionsController#sessions as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/sessions.html.erb within layouts/application
+  Rendered sessions/sessions.html.erb within layouts/application (Duration: 0.8ms | Allocations: 160)
+  Rendered layout layouts/application.html.erb (Duration: 14.7ms | Allocations: 3123)
+Completed 200 OK in 19ms (Views: 17.5ms | ActiveRecord: 0.0ms | Allocations: 4175)
+
+
+Started GET "/application.css" for 127.0.0.1 at 2023-05-11 23:41:15 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/application.css"):
+  
+Started GET "/sessions" for 127.0.0.1 at 2023-05-11 23:45:50 +0200
+Processing by SessionsController#sessions as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/sessions.html.erb within layouts/application
+  Rendered sessions/sessions.html.erb within layouts/application (Duration: 0.9ms | Allocations: 159)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 3366)
+Completed 200 OK in 18ms (Views: 14.7ms | Allocations: 4384)
+
+
+Started GET "/application.css" for 127.0.0.1 at 2023-05-11 23:45:50 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/application.css"):
+  
+Started GET "/sessions" for 127.0.0.1 at 2023-05-11 23:45:54 +0200
+Processing by SessionsController#sessions as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/sessions.html.erb within layouts/application
+  Rendered sessions/sessions.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 2611)
+Completed 200 OK in 5ms (Views: 4.2ms | Allocations: 2926)
+
+
+Started GET "/application.css" for 127.0.0.1 at 2023-05-11 23:45:54 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/application.css"):
+  
+Started GET "/sessions" for 127.0.0.1 at 2023-05-11 23:48:19 +0200
+Processing by SessionsController#sessions as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/sessions.html.erb within layouts/application
+  Rendered sessions/sessions.html.erb within layouts/application (Duration: 4.4ms | Allocations: 159)
+  Rendered layout layouts/application.html.erb (Duration: 19.5ms | Allocations: 4828)
+Completed 200 OK in 25ms (Views: 23.2ms | Allocations: 5846)
+
+
+Started GET "/application.css" for 127.0.0.1 at 2023-05-11 23:48:19 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/application.css"):
+  
+Started GET "/" for 127.0.0.1 at 2023-05-11 23:49:06 +0200
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/gossipform" for 127.0.0.1 at 2023-05-11 23:49:06 +0200
+Processing by GossipformController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering gossipform/index.html.erb within layouts/application
+  [1m[36mGossip Load (3.2ms)[0m  [1m[34mSELECT "gossips".* FROM "gossips"[0m
+  ↳ app/views/gossipform/index.html.erb:8
+  Rendered gossipform/index.html.erb within layouts/application (Duration: 27.6ms | Allocations: 17227)
+  Rendered layout layouts/application.html.erb (Duration: 147.7ms | Allocations: 54525)
+Completed 200 OK in 180ms (Views: 146.5ms | ActiveRecord: 8.7ms | Allocations: 62991)
+
+
+Started GET "/application.css" for 127.0.0.1 at 2023-05-11 23:49:07 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/application.css"):
+  
+Started GET "/" for 127.0.0.1 at 2023-05-11 23:50:19 +0200
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/gossipform" for 127.0.0.1 at 2023-05-11 23:50:19 +0200
+Processing by GossipformController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering gossipform/index.html.erb within layouts/application
+  [1m[36mGossip Load (1.3ms)[0m  [1m[34mSELECT "gossips".* FROM "gossips"[0m
+  ↳ app/views/gossipform/index.html.erb:8
+  Rendered gossipform/index.html.erb within layouts/application (Duration: 36.6ms | Allocations: 17231)
+  Rendered layout layouts/application.html.erb (Duration: 206.3ms | Allocations: 64090)
+Completed 200 OK in 238ms (Views: 200.4ms | ActiveRecord: 12.9ms | Allocations: 72556)
+
+
+Started GET "/application.css" for 127.0.0.1 at 2023-05-11 23:50:20 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/application.css"):
+  
+Started GET "/gossipform" for 127.0.0.1 at 2023-05-12 00:01:54 +0200
+Processing by GossipformController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering gossipform/index.html.erb within layouts/application
+  [1m[36mGossip Load (1.2ms)[0m  [1m[34mSELECT "gossips".* FROM "gossips"[0m
+  ↳ app/views/gossipform/index.html.erb:8
+  Rendered gossipform/index.html.erb within layouts/application (Duration: 31.0ms | Allocations: 4029)
+  Rendered layout layouts/application.html.erb (Duration: 47.0ms | Allocations: 8661)
+Completed 200 OK in 53ms (Views: 50.0ms | ActiveRecord: 13.1ms | Allocations: 9692)
+
+
+Started GET "/application.css" for 127.0.0.1 at 2023-05-12 00:01:54 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/application.css"):
+  
+Started GET "/gossipform" for 127.0.0.1 at 2023-05-12 00:01:55 +0200
+Processing by GossipformController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering gossipform/index.html.erb within layouts/application
+  [1m[36mGossip Load (0.2ms)[0m  [1m[34mSELECT "gossips".* FROM "gossips"[0m
+  ↳ app/views/gossipform/index.html.erb:8
+  Rendered gossipform/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 667)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 4710)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.2ms | Allocations: 5042)
+
+
+Started GET "/application.css" for 127.0.0.1 at 2023-05-12 00:01:55 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/application.css"):
+  
+Started GET "/" for 127.0.0.1 at 2023-05-12 00:02:14 +0200
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/gossipform" for 127.0.0.1 at 2023-05-12 00:02:14 +0200
+Processing by GossipformController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering gossipform/index.html.erb within layouts/application
+  [1m[36mGossip Load (0.7ms)[0m  [1m[34mSELECT "gossips".* FROM "gossips"[0m
+  ↳ app/views/gossipform/index.html.erb:8
+  Rendered gossipform/index.html.erb within layouts/application (Duration: 17.2ms | Allocations: 17227)
+  Rendered layout layouts/application.html.erb (Duration: 95.1ms | Allocations: 54585)
+Completed 200 OK in 121ms (Views: 98.0ms | ActiveRecord: 4.8ms | Allocations: 63051)
+
+
+Started GET "/application.css" for 127.0.0.1 at 2023-05-12 00:02:14 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/application.css"):
+  
+Started GET "/gossipform" for 127.0.0.1 at 2023-05-12 00:14:35 +0200
+Processing by GossipformController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering gossipform/index.html.erb within layouts/application
+  [1m[36mGossip Load (1.3ms)[0m  [1m[34mSELECT "gossips".* FROM "gossips"[0m
+  ↳ app/views/gossipform/index.html.erb:8
+  Rendered gossipform/index.html.erb within layouts/application (Duration: 43.2ms | Allocations: 4037)
+  Rendered layout layouts/application.html.erb (Duration: 62.1ms | Allocations: 8704)
+Completed 200 OK in 69ms (Views: 65.7ms | ActiveRecord: 19.4ms | Allocations: 9747)
+
+
+Started GET "/application.css" for 127.0.0.1 at 2023-05-12 00:14:35 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/application.css"):
+  
+Started GET "/gossipform" for 127.0.0.1 at 2023-05-12 00:14:36 +0200
+Processing by GossipformController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering gossipform/index.html.erb within layouts/application
+  [1m[36mGossip Load (0.2ms)[0m  [1m[34mSELECT "gossips".* FROM "gossips"[0m
+  ↳ app/views/gossipform/index.html.erb:8
+  Rendered gossipform/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 660)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 4699)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.2ms | Allocations: 5027)
+
+
+Started GET "/application.css" for 127.0.0.1 at 2023-05-12 00:14:36 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/application.css"):
+  
+Started GET "/gossipform" for 127.0.0.1 at 2023-05-12 00:14:36 +0200
+Processing by GossipformController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering gossipform/index.html.erb within layouts/application
+  [1m[36mGossip Load (0.2ms)[0m  [1m[34mSELECT "gossips".* FROM "gossips"[0m
+  ↳ app/views/gossipform/index.html.erb:8
+  Rendered gossipform/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 660)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 4721)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.2ms | Allocations: 5048)
+
+
+Started GET "/application.css" for 127.0.0.1 at 2023-05-12 00:14:36 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/application.css"):
+  
+Started GET "/application.css" for 127.0.0.1 at 2023-05-12 00:14:44 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/application.css"):
+  
+Started GET "/potin/3" for 127.0.0.1 at 2023-05-12 00:15:01 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/potin/3"):
+  
+Started GET "/" for 127.0.0.1 at 2023-05-12 00:19:44 +0200
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/gossipform" for 127.0.0.1 at 2023-05-12 00:19:44 +0200
+Processing by GossipformController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering gossipform/index.html.erb within layouts/application
+  [1m[36mGossip Load (5.5ms)[0m  [1m[34mSELECT "gossips".* FROM "gossips"[0m
+  ↳ app/views/gossipform/index.html.erb:8
+  Rendered gossipform/index.html.erb within layouts/application (Duration: 21.0ms | Allocations: 17227)
+  Rendered layout layouts/application.html.erb (Duration: 138.2ms | Allocations: 57395)
+Completed 200 OK in 160ms (Views: 133.8ms | ActiveRecord: 9.5ms | Allocations: 65861)
+
+
+Started GET "/application.css" for 127.0.0.1 at 2023-05-12 00:19:44 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/application.css"):
+  
+Started GET "/sessions" for 127.0.0.1 at 2023-05-12 00:19:48 +0200
+Processing by SessionsController#sessions as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/sessions.html.erb within layouts/application
+  Rendered sessions/sessions.html.erb within layouts/application (Duration: 0.8ms | Allocations: 159)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 4329)
+Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 5206)
+
+
+Started GET "/application.css" for 127.0.0.1 at 2023-05-12 00:19:48 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/application.css"):
+  
+Started GET "/gossipform/new" for 127.0.0.1 at 2023-05-12 00:19:56 +0200
+Processing by GossipformController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering gossipform/new.html.erb within layouts/application
+  Rendered gossipform/new.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1580)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 5433)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 5751)
+
+
+Started GET "/" for 127.0.0.1 at 2023-05-12 00:19:58 +0200
+Started GET "/gossipform" for 127.0.0.1 at 2023-05-12 00:19:58 +0200
+Processing by GossipformController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering gossipform/index.html.erb within layouts/application
+  [1m[36mGossip Load (0.3ms)[0m  [1m[34mSELECT "gossips".* FROM "gossips"[0m
+  ↳ app/views/gossipform/index.html.erb:8
+  Rendered gossipform/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 667)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 4709)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.3ms | Allocations: 5044)
+
+
